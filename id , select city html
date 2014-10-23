@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head> <script src="Lab01.js"></script> </head>
+	<body>
+		ID: <input type="text" required id="id">
+		<br>
+		Location:
+		<select id="city">
+			<option>Mumbai</option>
+			<option>Pune</option>
+			<option>Chennai</option>
+		</select>
+		<br>
+		<input type="button" onclick="add()" value="Add">
+		<br>
+		<table border="1">
+			<thead>
+				<tr>
+					<th> ID</th>
+					<th> Location </th>
+				</tr>
+				<tbody id="mybody">
+
+				</tbody>
+			</thead>
+		</table>
+	</body>
+</html
+
