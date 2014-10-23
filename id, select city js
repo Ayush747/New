@@ -1,0 +1,15 @@
+var ids = [];
+function add(){
+	var id = document.getElementById("id").value;
+	var city = document.getElementById("city").value;
+	
+	ids[id] = city;
+	
+	var body = "";
+
+	for(var key in ids){
+		body += "<tr> <td>" + key + "</td> <td>" + ids[key] + "</td> </tr>";
+	}
+
+	document.getElementById("mybody").innerHTML = body;
+}
